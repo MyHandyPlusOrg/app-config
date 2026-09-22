@@ -18,3 +18,8 @@ The app fetches it at startup and on resume (`ForceUpdateService` in
   installed. The gate fails open on network errors, so raising it only stops
   app usage, it never bricks devices.
 - `min_build: 0` = gate present but dormant.
+- **Surgical recall**: an optional `"blocked_builds": [10140]` list per platform
+  forces those exact builds onto the update screen regardless of `min_build` —
+  for pulling one bad release without walling the whole older install base.
+  Only builds ≥ the first release shipping the parsing respond to it (10136 and
+  10137 respond to `min_build` only).
