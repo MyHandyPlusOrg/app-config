@@ -7,8 +7,6 @@
   "ios": {
     "min_build": 0,
     "store_url": "https://apps.apple.com/app/id1585983742",
-    "blocked_builds": [
-      10138
-    ]
+    "blocked_builds": []
   }
 }
