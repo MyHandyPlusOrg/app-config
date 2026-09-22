@@ -1,7 +1,10 @@
 {
   "android": {
-    "min_build": 99999,
-    "store_url": "https://play.google.com/store/apps/details?id=com.myhandyplus"
+    "min_build": 0,
+    "store_url": "https://play.google.com/store/apps/details?id=com.myhandyplus",
+    "blocked_builds": [
+      10138
+    ]
   },
   "ios": {
     "min_build": 0,
